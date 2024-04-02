@@ -1,0 +1,23 @@
+body {
+ background-color:#FB9AD1; 
+}
+
+
+
+.navbar-brand{
+    margin-left: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+    color: blueviolet;
+
+
+}
+
+.above-tag {
+    padding-inline: 40px;
+    margin-top: 16px;
+    margin-left: 55px;
+    color: black;
+
+
+}
