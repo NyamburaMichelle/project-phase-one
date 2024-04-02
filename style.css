@@ -1,23 +1,44 @@
 body {
  background-color:#FB9AD1; 
 }
-
-
-
 .navbar-brand{
     margin-left: 20px;
     font-size: 25px;
     margin-top: 20px;
     color: blueviolet;
-
-
 }
-
 .above-tag {
     padding-inline: 40px;
     margin-top: 16px;
     margin-left: 55px;
     color: black;
+}
 
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    width:200%;
+    height: auto;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    top: 40%; 
+    left: 20%; 
+    transform: translate(-50%, -50%); 
+    background-color: #c3a6a6; 
+    color: #fff; 
+    padding: 10px 20px; 
+    font-size: 20px; 
+    text-align: center;}
+
+.btn-primary{
+    background-color: #FB9AD1;
+    font-family:Lucida Sans;
 
 }
+
