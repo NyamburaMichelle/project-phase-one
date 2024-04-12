@@ -1,44 +1,76 @@
-body {
- background-color:#FB9AD1; 
+body{
+background: #EFBC9B ;
+}
+
+.btnAdd{
+  background:#F3E8EB;
+}
+#form-fill{
+  border-style: solid !important;
+  border-color: #d3e7ed ;
+  background: #FBF3D5;
+  
+}
+.col-md-2{
+  margin-top:95px;
+  margin-left: -310px;
+  position: relative;
+}
+
+h1{
+  text-decoration: underline;
+  font-family: 'Montserrat'; 
+  font-family: 'Montserrat'; font-size: 36px;
+  font-weight: 500;
+  line-height: 44px; 
+  text-align: center;
+  color: rgb(114, 37, 37);
+}
+h3{
+  text-decoration: underline;
+  position: relative;
+}
+#btnProfile{
+  margin-left: 300px;
+  background:#D6DAC8;
+}
+#Qual{
+  margin-left: 300px;
+}
+.card {
+  width: 250px; 
+  height:auto ; 
+  margin: 10px; 
+  background: #cfe0e4;
+  margin-top: 200px;
+}
+.card img{
+  width: 170px;
+}
+.cards-body{
+  background: #D6DAC8;
+  border-style: groove;
 }
 .navbar-brand{
-    margin-left: 20px;
-    font-size: 25px;
-    margin-top: 20px;
-    color: blueviolet;
-}
-.above-tag {
-    padding-inline: 40px;
-    margin-top: 16px;
-    margin-left: 55px;
-    color: black;
-}
-
-.image-container {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .image-container img {
-    display: block;
-    width:200%;
-    height: auto;
-  }
-  
-  .overlay-text {
-    position: absolute;
-    top: 40%; 
-    left: 20%; 
-    transform: translate(-50%, -50%); 
-    background-color: #c3a6a6; 
-    color: #fff; 
-    padding: 10px 20px; 
-    font-size: 20px; 
-    text-align: center;}
-
-.btn-primary{
-    background-color: #FB9AD1;
-    font-family:Lucida Sans;
+  font-size: 40px;
+  color: #dea509;
+  font-weight: 600;
+  font-style: normal;
+  font-family:'Haettenschweiler';
 
 }
+#logo{
+  width:20%!important;
+  height:20%!important;
+  margin-left: 50vh;
+  position: inherit;
+}
+#carouselExampleAutoplaying{
+  width: 170px;
+  height:220px;
+  margin-left: 50vh;
 
+}
+.carousel-caption {
+  color: rgb(238, 28, 13);
+}
